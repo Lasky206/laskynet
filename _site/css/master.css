@@ -12,7 +12,7 @@ body {
 
 header {
   position: fixed;
-  top: 0px;
+  top: 0;
   left: 0;
   width: 100%;
 }
@@ -50,17 +50,17 @@ p {
 #navbar-items a {
   color: #fff;
   text-decoration: none;
-  padding: 1em .5em;
+  padding: 1em 1em;
 }
 
 /* Add highlight to nav items on hover */
-#navbar-items a:hover {
+#navbar-items a:not(:last-child):hover{
   background-color: #eee;
   color: #333;
 }
 
 /* Hide the link that should open and close the topnav on small screens */
-.topnav .icon {
+#navbar-items .icon {
   display: none;
 }
 
@@ -70,4 +70,20 @@ p {
 
 #portrait {
   margin-top: 3em;
+}
+
+
+@media only screen and (max-width: 900px) {
+  #navbar-items .icon {
+    display: block;
+  }
+
+  .navbar-items-right {
+    flex-direction: column;
+  }
+
+  .navbar-items-right a:not(:first-child) {
+    text-align: left;
+    display: none;
+  }
 }
