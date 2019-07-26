@@ -25,7 +25,7 @@ img {
 
 h1, h2, h3 {
   margin: 0;
-  padding: 1em 0;
+  padding: 15px 0;
 }
 
 p {
@@ -61,7 +61,7 @@ p {
 
 #navbar-home a:hover,
 #navbar-sites a:hover {
-  background-color: #eee;
+  background-color: #cfffe5;
   color: #333;
 }
 
@@ -69,9 +69,28 @@ p {
   display: none;
 }
 
+#main-title-mobile {
+  display: none;
+}
+
+#main-title {
+  display: block;
+}
+
+
 
 
 @media screen and (max-width: 600px) {
+  #section-a {
+    height: 100vh;
+    width: auto;
+  }
+
+  #section-b {
+    height: 100vh;
+    width: auto;
+  }
+
   .icon {
     display: block;
   }
@@ -100,8 +119,22 @@ p {
   }
 
   #portrait {
-    margin-top: 50px;
     position: relative;
     z-index: -1;
+    border-bottom: 5px solid #aaf0d1;
+    background-color: #333;
   }
+
+  #portrait img {
+    opacity: .80;
+  }
+
+  #main-title {
+    display: none;
+  }
+
+  #main-title-mobile {
+    display: block;
+  }
+
 }
