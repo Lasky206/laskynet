@@ -5,14 +5,14 @@ layout: null
 /* Core Styles */
 
 body {
-  margin: 0;
-  margin-top: 55px;
   font-family: Arial, Helvetica, sans-serif;
+  margin: 55px 0 0 0;
   background: #fff;
   color: #333;
   font-size: 1.1em;
   line-height: 1.5;
   text-align: center;
+  min-height: 100vh;
 }
 
 header {
@@ -22,8 +22,18 @@ header {
   width: 100%;
 }
 
+footer {
+  margin-top: 50px;
+  height: 100px;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+}
+
 ul {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 img {
@@ -42,17 +52,39 @@ p {
   padding: 1em 0;
 }
 
+
+/* Style list elements */
 #section-posts li {
   padding-left: 40px;
   text-align: left;
 }
 
+/* Style Posts */
 #section-posts a {
   color: #333;
   text-decoration: underline;
   text-decoration-color: #63e7ad;
 }
 
+/* Set background for section B */
+#section-b {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Set background for section C */
+#section-c {
+  background-color: #cfffe5;
+  color: #fff;
+}
+
+/* Style section C header */
+#section-c h1 {
+  background-color: #fff;
+  color: #333;
+}
+
+/* Style navbar */
 #navbar {
   display: flex;
   height: auto;
@@ -60,16 +92,18 @@ p {
   opacity: .95;
 }
 
+/* Align navbar home button */
 #navbar-home {
   display: flex;
 }
 
-
+/* Align navbar site buttons */
 #navbar-sites {
   display: flex;
   margin-left: auto;
 }
 
+/* Style navbar buttons */
 #navbar-home a,
 #navbar-sites a,
 .navbar-links a {
@@ -78,45 +112,60 @@ p {
   padding: 15px 20px;
 }
 
-
+/* Style navbar buttons on hover */
 #navbar-home a:hover,
 #navbar-sites a:hover {
   background-color: #cfffe5;
   color: #333;
 }
 
+/* Hide icon for PCs */
 .icon {
   display: none;
 }
 
-#main-title-mobile {
-  display: none;
+/* Format footer */
+#main-footer a {
+  text-decoration: none;
+  color: #fff;
 }
 
-#main-title {
-  display: block;
+/* Style card wrapper */
+.card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Style cards in section C */
+.card {
+  background-color: #fff;
+  color: #333;
+  margin: 15px 20px;
+  max-width: 30%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Style card headers */
+.card h3, p {
+  padding: 15px 15px;
 }
 
 
 @media screen and (min-width: 600px) {
   .grid {
     display: grid;
+    grid-template-columns: 1fr repeat(4, minmax(auto, 20vw)) 1fr;
+    grid-template-rows: auto auto auto auto;
   }
-}
+
+  .section-a}
 
 
 @media screen and (max-width: 600px) {
-
-  #section-a {
-    height: calc(100vh - 55px);
-    width: auto;
-  }
-
-  #section-b {
-    height: 90vh;
-    width: auto;
-    padding-top: 30px;
-    background-color: #cfffe5;
+  #section-c {
+    margin-top: 0px;
+    margin-bottom: 50px;
   }
 
   .icon {
@@ -159,16 +208,6 @@ p {
   }
 
   #portrait img {
-    opacity: .80;
+    opacity: .95;
   }
-
-  #main-title {
-    display: none;
-  }
-
-  #main-title-mobile {
-    display: block;
-    padding: 10px;
-  }
-
 }
