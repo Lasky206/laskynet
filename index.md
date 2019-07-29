@@ -7,49 +7,21 @@ feature-title: Welcome, I'm glad you're here
 ---
 
 <div id="section-a" class="grid">
-  <img src="{{ site.baseurl }}/img/selfportrait-01.jpg" alt="">
+  <div class="content-wrapper">
+    <div id="portrait">
+      <img src="{{ site.baseurl }}/img/selfportrait-01.jpg" alt="">
+    </div>
+    <h1 id="main-title-mobile">{{ page.feature-title }}</h1>
+  </div>
 </div>
-<div id="section-b" class="grid">
-  <ul>
-    <li class="card">
-      <div class="card-content">
-        <h3> This is a Heading</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, placeat nam aliquam alias voluptatibus vero totam distinctio esse quis enim.</p>
-      </div>
-    </li>
-    <li class="card">
-      <div class="card-content">
-        <h3> This is a Heading</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, placeat nam aliquam alias voluptatibus vero totam distinctio esse quis enim.</p>
-      </div>
-    </li>
-    <li class="card">
-      <div class="card-content">
-        <h3> This is a Heading</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, placeat nam aliquam alias voluptatibus vero totam distinctio esse quis enim.</p>
-      </div>
-    </li>
-  </ul>
-</div>
-<div id="section-c" class="grid">
-  <ul id="section-c-card-grid">
-    <li id="card-1" class="card">
-      <div class="card-content">
-        <h3> This is a Heading</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, placeat nam aliquam alias voluptatibus vero totam distinctio esse quis enim.</p>
-      </div>
-    </li>
-    <li id="card-2" class="card">
-      <div class="card-content">
-        <h3> This is a Heading</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, placeat nam aliquam alias voluptatibus vero totam distinctio esse quis enim.</p>
-      </div>
-    </li>
-    <li id="card-3" class="card">
-      <div class="card-content">
-        <h3> This is a Heading</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, placeat nam aliquam alias voluptatibus vero totam distinctio esse quis enim.</p>
-      </div>
-    </li>
-  </ul>
+<div id="section-b">
+  <div class="content-wrapper">
+    <h1 id="main-title">{{ page.feature-title}}</h1>
+    <h3>Heading 1</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim accusamus illum suscipit vero incidunt voluptates molestias facere consequuntur ex aperiam.</p>
+    <h3>Heading 2</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim accusamus illum suscipit vero incidunt voluptates molestias facere consequuntur ex aperiam.</p>
+    <h3>Heading 3</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim accusamus illum suscipit vero incidunt voluptates molestias facere consequuntur ex aperiam.</p>
+  </div>
 </div>
