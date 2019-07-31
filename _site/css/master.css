@@ -20,66 +20,126 @@ img {
   height: auto;
 }
 
+/* ------------ Section A ------------ */
+
+/* Size section A */
 #section-a {
-  height: calc(100vh - 3em);
+  height: calc(100vh - 3em - 3px);
+}
+
+/* Set hero container */
+#hero-container {
+  height: 50%;
   width: 100%;
-  background-color: #333;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/laskynet/img/banner-ml-01.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-#section-b {
-  min-height: calc(100vh - 3em - 5em - 5em);
-  max-height: auto;
-  margin-top: 5em;
-  margin-bottom: 5em;
-  background-color: #333;
-}
-
-#card-container {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-around;
-  vertical-align: middle;
-  margin-top: 50px;
   position: relative;
+  background-color: #333;
 }
 
-.card {
-  max-width: 500px;
-  min-width: 300px;
-  height: auto;
-  background-color: #fff;
-  text-align: center;
-  margin: 40px 10px;
-  border-radius: 5px;
-  overflow: hidden;
+/* Place and style hero image */
+#hero-picture {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-image: url("/laskynet/img/hero-01.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  filter: blur(6px);
+  opacity: .5;
 }
 
-.card h3 {
-  margin: 30px 0;
-  display: block;
-}
-
-#feature-text {
+/* Place and style hero text */
+#hero-text {
   position: absolute;
-  top: 75%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  /* padding: 50px;
+  background-color: #333;
+  opacity: .90;
+  border: 2px #3fafee solid; */
   color: #fff;
   text-align: center;
 }
 
-#feature-text h1 {
-  font-size: 60px;
-  margin: 20px 0;
+/* Style hero header text */
+#hero-text h1 {
+  font-size: 70px;
+  font-weight: 900;
 }
 
-#feature-text h3 {
-  font-size: 30px;
-  font-family: Caveat;
-  margin: 10px 10px;
+/* Style hero sub header text */
+#hero-text h3 {
+  font-weight: 700;
+}
+
+#slideshow-container {
+  height: calc(50% - 60px);
+  width: 100%;
+  background-color: #eee;
+}
+
+/* Style slider container */
+#slideshow-container {
+  position: relative;
+  background: #f1f1f1f1;
+}
+
+/* Slides */
+.slides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 25px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add background to buttons */
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+}
+
+/* Style Dot Container */
+#dot-container {
+  text-align: center;
+  padding: 20px;
+  background: #ddd;
+}
+
+/* Style dots */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
 }

@@ -1,22 +1,28 @@
 ---
 layout: null
 ---
+
+/* Style wrapper for body content */
 #wrapper {
   min-height: 100%;
 }
 
+/* Style and size main */
 #main {
   overflow: auto;
   padding-top: calc(3em + 3px);
   padding-bottom: 5em;
 }
 
+/* Style and size header bar */
 #header {
   height: 1em;
   width: 100%;
   padding: 1em 0;
-  color: #fff;
-  background-color: #333;
+  /* color: #fff; */
+  color: #333;
+  /* background-color: #333; */
+  background-color: #eee;
   border-bottom: 3px #3fafee solid;
   display: flex;
   overflow: hidden;
@@ -24,27 +30,34 @@ layout: null
   z-index: 1;
 }
 
+/* Style header buttons */
 #header a {
-  color: #fff;
+  color: #333;
   text-decoration: none;
   padding: 1em .5em;
   font-size: 20px;
 }
 
+/* Style header buttons on hover */
 #header a:hover {
-  color: #333;
-  background-color: #eee;
+  /* color: #333; */
+  color: #fff;
+  /* background-color: #eee; */
+  background-color: #333;
   border-radius: 1px;
 }
 
+/* Space home button from other buttons */
 #navbar-home {
   margin-right: auto;
 }
 
+/* Hide nav dropdown button on large screens */
 #navbar-menu-button {
   display: none;
 }
 
+/* Style and size footer */
 #footer {
   color: #fff;
   text-align: center;
@@ -55,11 +68,13 @@ layout: null
   clear: both;
 }
 
+/* Style and size footer links */
 #footer a {
   color: #fff;
   text-decoration: none;
 }
 
+/* Style and size footer heading text */
 #footer h3 {
   margin: 0;
   display: inline-block;
