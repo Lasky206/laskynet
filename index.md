@@ -15,7 +15,7 @@ feature-title: Welcome, I'm glad you're here
     </div>
   </div>
   <div id="slideshow-container">
-      <div class="slides">
+      <div class="slides" style="display: block;">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut quisquam neque quia sit laborum deserunt cupiditate officia quod reprehenderit quae.</p>
       </div>
       <div class="slides">
@@ -32,7 +32,7 @@ feature-title: Welcome, I'm glad you're here
       <a class="next" onclick="plusSlides(1)">&#10095;</a>
   </div>
   <div id="dot-container">
-    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot active" onclick="currentSlide(1)"></span>
     <span class="dot" onclick="currentSlide(2)"></span>
     <span class="dot" onclick="currentSlide(3)"></span>
     <span class="dot" onclick="currentSlide(4)"></span>
