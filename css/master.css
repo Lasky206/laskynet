@@ -28,12 +28,12 @@ img {
 
 /* Size section A */
 #section-a {
-  height: calc(100vh - 3em - 3px);
+  min-height: calc(100vh - 3em - 3px);
 }
 
 /* Set hero container */
 #hero-container {
-  height: 50%;
+  height: 500px;
   width: 100%;
   position: relative;
   background-color: #333;
@@ -78,72 +78,11 @@ img {
   font-weight: 700;
 }
 
-#slideshow-container {
-  height: calc(50% - 60px);
-  width: 100%;
-  background-color: #eee;
+#skill-cards {
+  display: grid;
+  grid-template-columns: 1fr repeat(4, minmax(auto, 400px)) 1fr;
 }
 
-/* Style slider container */
-#slideshow-container {
-  position: relative;
-  background: #f1f1f1f1;
-}
-
-/* Slides */
-.slides {
-  display: none;
-  padding: 80px;
-  text-align: center;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -30px;
-  padding: 16px;
-  color: #888;
-  font-weight: bold;
-  font-size: 25px;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  position: absolute;
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add background to buttons */
-.prev:hover, .next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-  color: #fff;
-}
-
-/* Style Dot Container */
-#dot-container {
-  text-align: center;
-  padding: 20px;
-  background: #ddd;
-}
-
-/* Style dots */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
+.skill {
+  padding: 30px;
 }
