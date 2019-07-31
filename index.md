@@ -16,16 +16,16 @@ feature-title: Welcome, I'm glad you're here
   </div>
   <div id="slideshow-container">
       <div class="slides" style="display: block;">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut quisquam neque quia sit laborum deserunt cupiditate officia quod reprehenderit quae.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure accusantium possimus corrupti. Rerum sunt unde ipsa quod beatae fugiat, provident ducimus! Voluptatibus magnam maxime, natus. Animi molestiae officiis nam sed. Odit, officia animi est rem? Alias laudantium nihil, aliquid blanditiis.</p>
       </div>
       <div class="slides">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias dolorum delectus cumque, dicta minus aliquid soluta praesentium, id ab nemo.</p>
       </div>
       <div class="slides">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora amet in autem at cum culpa odio earum quaerat accusamus, ad.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis pariatur aperiam nulla sint, est repudiandae, eaque quam saepe dolore. Fuga optio, aliquam amet aut, nostrum deserunt! Molestias veniam molestiae consequuntur!</p>
       </div>
       <div class="slides">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum quisquam dolorum dolores, sequi similique dicta laudantium, alias voluptatum quos soluta!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos consequatur doloribus cupiditate ab voluptas, corporis enim suscipit nemo quos iure provident dolores neque modi non id nisi cumque perspiciatis porro harum tempore! Facilis distinctio rem beatae repellendus fugiat ullam iure excepturi, placeat quod sunt, hic molestiae recusandae quae eligendi adipisci unde consequuntur ratione magni, suscipit vero doloribus assumenda! Harum ratione quas optio molestiae animi esse, magnam rerum quaerat non molestias!</p>
       </div>
 
       <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
