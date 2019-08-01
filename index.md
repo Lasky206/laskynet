@@ -14,9 +14,17 @@ feature-title: Welcome, I'm glad you're here
       <h3>Your perfect Network and DevOps Engineer</h3>
     </div>
   </div>
-  <div id="portrait">
-    <img src="{{ site.baseurl }}/img/selfportrait-01.jpg" alt="">
+  <div id="portrait-container">
+    <div id="portrait">
+      <img src="{{ site.baseurl }}/img/selfportrait-01.png" alt="">
+    </div>
   </div>
+  <div id="bio">
+    <h3>ABOUT ME</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit distinctio labore, modi ex ut qui impedit temporibus veritatis explicabo repellat fugiat ipsum est perferendis, vero autem illo quo architecto esse alias earum perspiciatis veniam maiores quas itaque! Facere exercitationem, sapiente impedit laboriosam suscipit placeat rerum. Accusamus ratione hic laborum nobis enim id laboriosam mollitia eligendi earum et natus ex, accusantium.</p>
+  </div>
+</div>
+<div id="section-b">
   <div id="skill-cards">
     <div id="skill-card-1" class="skill">
       <div class="skill-picture">
@@ -46,25 +54,6 @@ feature-title: Welcome, I'm glad you're here
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate facilis mollitia minima dignissimos fugit cumque illo sit quod totam laudantium.</p>
     </div>
   </div>
-</div>
-<div id="section-b">
-  <ul id="deck">
-    <li class="card">
-      <!-- <img src="{{ site.baseurl }}/img/banner-networking-01.jpg" alt=""> -->
-      <h3>Card 1</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi earum perferendis dolor fugit voluptatem illo maxime voluptas, tenetur nam impedit!</p>
-    </li>
-    <li class="card">
-      <!-- <img src="{{ site.baseurl }}/img/banner-devops-01.jpg" alt=""> -->
-      <h3>Card 2</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi fugiat necessitatibus dolor eaque aliquid quae, deleniti maxime voluptatibus doloribus odit.</p>
-    </li>
-    <li class="card">
-      <!-- <img src="{{ site.baseurl }}/img/banner-ml-03.png" alt=""> -->
-      <h3>Card 3</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero id ad maiores. Alias voluptas suscipit unde, vel. Dolorem, enim, ratione?</p>
-    </li>
-  </ul>
 </div>
 <div id="section-c">
 
