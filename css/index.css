@@ -1,0 +1,70 @@
+---
+layout: null
+---
+
+/* ---------- Section A ---------- */
+#section-a {
+  height: 500px;
+  width: 100%;
+}
+
+.hero {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-color: #333;
+  border-bottom: 3px solid #53b2f7;
+}
+
+.hero-img {
+  height: 100%;
+  width: 100%;
+  background-image: url({{ site.baseurl }}/img/hero-01.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  filter: blur(6px);
+  opacity: .70;
+}
+
+.hero-text {
+  width: 100%;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.hero-text h1 {
+  font-size: 4em;
+  font-weight: 900;
+}
+
+.hero-text h3 {
+  font-size: 1.15em;
+}
+
+/* ---------- Section B ---------- */
+#section-b {
+  height: 500px;
+  /* background-color: #eee; */
+}
+
+.sleeve {
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+  width: auto;
+}
+
+.card {
+  height: auto;
+  width: 30%;
+  background-color: #fff;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px #ccc;
+}

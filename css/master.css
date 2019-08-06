@@ -1,26 +1,30 @@
-html {
-  height: auto;
-  margin: 0;
-  font-size: 20px;
-}
-
+html,
 body {
+  margin: 0;
+  padding: 0;
   height: 100%;
-  margin: 0;
+  font-size: 20px;
+  font-family: Lato;
 }
 
-header {
-  height: 10%;
+#body {
 }
+
+#main {
+  height: 100%;
+}
+
+/* main {
+  min-height: 100%;
+} */
+
 #wrapper {
-  min-height: calc(100vh - 3em - 3px - 5em);
-  background: red;
+  min-height: calc(100% - 3em - 5em);
+  padding-top: 3em;
+  padding-bottom: 5em;
+  position: relative;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   margin: 0;
-}
-
-footer {
-  height: 10%;
 }
