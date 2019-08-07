@@ -5,8 +5,11 @@ layout: default
 <main id="main">
   {{ content }}
 
-  <div id="section-posts" class="grid">
-    {%- if site.posts.size > 0 -%}
+  <div id="post-wrapper">
+    <h1>B &#183; L &#183; O &#183; G</h1>
+    <div id="post-banner-1"></div>
+    <div id="section-posts" class="grid">
+      {%- if site.posts.size > 0 -%}
       <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
       <ul class="post-list">
         {%- for post in site.posts -%}
@@ -19,13 +22,15 @@ layout: default
             </a>
           </h3>
           {%- if site.show_excerpts -%}
-            {{ page.excerpt }}
+          {{ page.excerpt }}
           {%- endif -%}
         </li>
         {%- endfor -%}
       </ul>
 
       <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p> -->
-    {%- endif -%}
+      {%- endif -%}
+    </div>
+    <div id="post-banner-2"></div>
   </div>
 </main>
