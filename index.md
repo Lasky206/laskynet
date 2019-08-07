@@ -13,7 +13,7 @@ feature-title: Welcome, I'm glad you're here
       <h1>RICK ALLEN</h1>
       <h4>Your perfect Network and DevOps Engineer</h4>
     </div>
-    <button class="hero-btn" type="button" name="button">Download Resume</button>
+    <a href="{{ site.baseurl }}/etc/DevOps Resume.pdf" class="hero-btn" download>Download Resume</a>
   </div>
 </div>
 <div id="section-b">
