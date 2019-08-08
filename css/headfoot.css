@@ -5,7 +5,6 @@ layout: null
 #header {
   height: 3em;
   width: 100%;
-  overflow: hidden;
   display: flex;
   position: fixed;
   top: 0;
@@ -18,6 +17,11 @@ layout: null
 
 #navbar-home {
   margin-right: auto;
+}
+
+#navbar-sites a {
+  display: block;
+  background-color: #eee;
 }
 
 #navbar-home,
@@ -44,6 +48,7 @@ layout: null
 @media only screen and (max-width: 900px) {
   #navbar-sites {
     display: none;
+    height: 6em;
   }
 }
 

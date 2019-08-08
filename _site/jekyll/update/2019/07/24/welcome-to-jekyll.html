@@ -13,8 +13,8 @@
 
   <script type="text/javascript">
     /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
-    function myFunction() {
-      var x = document.getElementById("myLinks");
+    function DropNAV() {
+      var x = document.getElementById("navbar-sites");
       if (x.style.display === "block") {
         x.style.display = "none";
       } else {
@@ -74,7 +74,7 @@
       <nav id="navbar-sites"><a href="/laskynet/networking/">Networking</a><a href="/laskynet/devops/">DevOps</a><a href="/laskynet/machine-learning/">Machine Learning</a><a href="/laskynet/about-me/">About Me</a><a href="/laskynet/certs/">Certs</a></nav>
       <nav id="navbar-menu-button" class="navbar-links">
         <!-- Compact Menu Button -->
-        <a href="javascript:void(0);" class="icon">
+        <a href="javascript:void(0);" class="icon" onclick="DropNAV()">
           <i class="fa fa-bars"></i>
         </a>
       </nav>
