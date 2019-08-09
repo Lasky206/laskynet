@@ -1,10 +1,28 @@
 ---
 layout: page
 title: Machine Learning
-banner: /img/banner-ml-02.jpg
-message: Teach to Learn.
-permalink: /machine-learning/
+head-banner: banner-ml-02.jpg
+head-message: Machine Learning
+sub-message: Teach to learn
+permalink: /ml/
 ---
+
+<style media="screen">
+  .hero-img {
+    background-image: url("{{ site.baseurl }}/img/{{ page.head-banner }}");
+  }
+</style>
+
+
+<div class="page-banner">
+  <div class="hero-img"></div>
+  <div class="hero-text">
+    <h1> {{ page.head-message }}</h1>
+    <h4>{{ page.sub-message }}</h4>
+  </div>
+</div>
+
+
 
 <h4>Let's talk Machine Learning,</h4>
 

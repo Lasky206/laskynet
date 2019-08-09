@@ -1,17 +1,24 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: home
-feature-title: Welcome, I'm glad you're here
+head-banner: hero-01.jpg
+head-message: RICK ALLEN
+sub-message: Your perfect Network and DevOps Engineer
 ---
+
+<style media="screen">
+  .hero-img {
+    background-image: url("{{ site.baseurl }}/img/{{ page.head-banner }}");
+  }
+</style>
+
+
 
 <div id="section-a">
   <div class="hero">
     <div class="hero-img"></div>
     <div class="hero-text">
-      <h1>RICK ALLEN</h1>
-      <h4>Your perfect Network and DevOps Engineer</h4>
+      <h1>{{ page.head-message }}</h1>
+      <h4>{{ page.sub-message }}</h4>
     </div>
     <a href="{{ site.baseurl }}/etc/DevOps Resume.pdf" class="hero-btn" download>Download Resume</a>
   </div>
@@ -43,7 +50,7 @@ feature-title: Welcome, I'm glad you're here
     <div id="buzz-banner-2" class="buzz-banner"></div>
     <div id="buzz-word-3" class="buzz-word"><h1>BUILD</h1></div>
     <div id="buzz-banner-3" class="buzz-banner"></div>
-    <div id="buzz-word-4" class="buzz-word"><h1>PROTECT</h1></div>
+    <div id="buzz-word-4" class="buzz-word"><h1>SECURE</h1></div>
     <div id="buzz-banner-4" class="buzz-banner"></div>
   </div>
 </div>

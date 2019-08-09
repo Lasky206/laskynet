@@ -1,10 +1,28 @@
 ---
 layout: page
 title: DevOps
-banner: /img/banner-devops-02.jpg
-message: Integrate the world.
+head-banner: banner-devops-02.jpg
+head-message: DevOps
+sub-message: Automate & Integrate
 permalink: /devops/
 ---
+
+<style media="screen">
+  .hero-img {
+    background-image: url("{{ site.baseurl }}/img/{{ page.head-banner }}");
+  }
+</style>
+
+
+<div class="page-banner">
+  <div class="hero-img"></div>
+  <div class="hero-text">
+    <h1> {{ page.head-message }}</h1>
+    <h4>{{ page.sub-message }}</h4>
+  </div>
+</div>
+
+
 
 <h4>Hi there,</h4>
 

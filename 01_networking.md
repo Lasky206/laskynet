@@ -1,10 +1,29 @@
 ---
 layout: page
 title: Networking
-banner: /img/banner-networking-02.jpg
-message: Connecting the world.
+head-banner: banner-networking-02.jpg
+head-message: Networking
+sub-message: Connecting the world
 permalink: /networking/
 ---
+
+
+<style media="screen">
+  .hero-img {
+    background-image: url("{{ site.baseurl }}/img/{{ page.head-banner }}");
+  }
+</style>
+
+
+<div class="page-banner">
+  <div class="hero-img"></div>
+  <div class="hero-text">
+    <h1> {{ page.head-message }}</h1>
+    <h4>{{ page.sub-message }}</h4>
+  </div>
+</div>
+
+
 
 <h4>Networking and Education</h4>
 <p style="text-indent: 2em;">
