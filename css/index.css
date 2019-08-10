@@ -74,6 +74,7 @@ layout: null
 .grid-wrapper {
   height: 100%;
   width: 100%;
+  padding-top: 3em;
   display: grid;
   grid-template-columns: 1fr repeat(6, minmax(80px, 200px)) 1fr;
   grid-template-rows: 1fr 1fr 1fr;
@@ -173,6 +174,7 @@ layout: null
 
   /* ---------- Section B ---------- */
   .grid-wrapper {
+    padding-top: 5em;
     grid-template-columns: 1fr repeat(6, minmax(auto, 200px)) 1fr;
     grid-template-rows: auto auto auto auto auto;
   }
