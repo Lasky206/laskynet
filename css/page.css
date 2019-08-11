@@ -10,9 +10,16 @@ layout: null
   border-bottom: 3px solid #53b2f7;
 }
 
-.page-halfs {
+.page-whole {
   background-color: #d5dde7;
-  min-height: 500px;
+  min-height: 300px;
+  text-align: left;
+  padding: 2em;
+}
+
+.page-half {
+  background-color: #d5dde7;
+  min-height: 300px;
   display: grid;
   grid-template-columns: 1fr repeat(2, minmax(400px, 600px)) 1fr;
   grid-template-rows: auto;
@@ -33,12 +40,12 @@ layout: null
 
 
 @media only screen and (max-width: 900px) {
-  .page-halfs {
+  .page-half {
     grid-template-rows: auto auto;
     grid-template-columns: 1fr repeat(1, minmax(400px, 600px)) 1fr;
     grid-column-gap: 0;
     grid-row-gap: 1em;
-    padding: 0;
+    padding: 2em 0;
   }
 
   .page-half-1 {
