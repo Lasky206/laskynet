@@ -29,16 +29,16 @@ sub-message: Your perfect Network and DevOps Engineer
       <h2>About Me</h2>
     </div>
     <div id="grid-item-1" class="grid">
-      <h4>Learn</h4>
-      <p>My number one trait is my apt for learning. I love to learn new things and thrive on overcoming challenges.</p>
+      <h4>The Most Important Skill</h4>
+      <p>The number one skill I bring to the table is my aptitude for learning. I love to discover new things and thrive on overcoming challenges. With me in your repertoire, there is nothing we can't accomplish or overcome.</p>
     </div>
     <div id="grid-item-2" class="grid">
-      <h4>Build</h4>
-      <p>Consequatur ipsam repellat nemo quo, ducimus eum blanditiis accusantium fugit unde, molestias facilis minima hic exercitationem temporibus tenetur, harum nobis alias iure incidunt minus cupiditate, possimus commodi aut. Dolores, at?</p>
+      <h4>Operations</h4>
+      <p>Over 5+ years in Ops experience as a System, Network, and Linux Administration I have a solid understanding of the needs and workflow of an Operations team and their equipment. Know the building blocks that everything runs on is extremely important to creating a solid product.</p>
     </div>
     <div id="grid-item-3" class="grid">
-      <h4>Main 3</h4>
-      <p>Cumque autem illo asperiores neque, rem. Odit, vero unde quibusdam inventore aliquam eius harum quod doloribus optio, mollitia repudiandae quae magnam quasi similique ut iure aperiam ab! Ad, et, error.</p>
+      <h4>Development</h4>
+      <p>Over 5+ years in Linux and 2 years split between Python and Bash I'm comfortable coding whatever my projects have challenged me with. I'm continuing to create new applications and new ways of packaging and deploying code even in my free time. It's not just work, I think of it as a hobby as well</p>
     </div>
   </div>
 </div>
