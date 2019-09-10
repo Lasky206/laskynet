@@ -29,11 +29,11 @@ sub-message: Your perfect Network and DevOps Engineer
       <h2>About Me</h2>
     </div>
     <div id="grid-item-1" class="grid">
-      <h4>Main 1</h4>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia architecto excepturi voluptatibus dolorum ea, doloremque error laudantium non praesentium temporibus tempore aperiam ab iure natus consectetur cupiditate? Fugiat, rem, sit!</p>
+      <h4>Learn</h4>
+      <p>My number one trait is my apt for learning. I love to learn new things and thrive on overcoming challenges.</p>
     </div>
     <div id="grid-item-2" class="grid">
-      <h4>Main 2</h4>
+      <h4>Build</h4>
       <p>Consequatur ipsam repellat nemo quo, ducimus eum blanditiis accusantium fugit unde, molestias facilis minima hic exercitationem temporibus tenetur, harum nobis alias iure incidunt minus cupiditate, possimus commodi aut. Dolores, at?</p>
     </div>
     <div id="grid-item-3" class="grid">
